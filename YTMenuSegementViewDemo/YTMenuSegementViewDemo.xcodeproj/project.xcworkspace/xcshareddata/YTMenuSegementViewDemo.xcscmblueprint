@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E5D3A6DEAC7413487E05DFD1726F946DAC43D192",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8499EC6211F355A769B7C1BDC1E62FB3CC019390" : 0,
+    "E5D3A6DEAC7413487E05DFD1726F946DAC43D192" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E72FA163-5AD5-4AFE-8283-1C9BB9117064",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8499EC6211F355A769B7C1BDC1E62FB3CC019390" : "",
+    "E5D3A6DEAC7413487E05DFD1726F946DAC43D192" : "YTMenuSegmentView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YTMenuSegementViewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YTMenuSegementViewDemo\/YTMenuSegementViewDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TingZai\/iOS_RunTime_DataBase.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8499EC6211F355A769B7C1BDC1E62FB3CC019390"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TingZai\/YTMenuSegmentView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E5D3A6DEAC7413487E05DFD1726F946DAC43D192"
+    }
+  ]
+}

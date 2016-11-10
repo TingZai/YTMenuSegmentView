@@ -123,7 +123,7 @@ extension YTMenuSegmentButton{
         let W = self.frame.size.width
         
         //1.
-        let textSize = ToolManager.calculateStringSize(self.title, maxW: 5000, maxH: 50, fontSize: self.fontSize)
+        let textSize = self.calculateStringSize(self.title, maxW: 5000, maxH: 50, fontSize: self.fontSize)
         let textW = textSize.width
         let textH = H/2
         self.textLabel.frame = CGRectMake(0, 0, textW, textH)
@@ -136,5 +136,14 @@ extension YTMenuSegmentButton{
         let imX = self.textLabel.frame.origin.x + textW + 2
         let imY = H/4 - imH/2
         self.imageView.frame = CGRectMake(imX, imY, imW, imH)
+    }
+    
+    ///计算指定字符串的大小
+    func calculateStringSize(str:String,maxW:CGFloat,maxH:CGFloat,fontSize:CGFloat) -> CGSize{
+        //1.将字符串转换成OC的字符串
+        let ocStr = str as NSString
+        //2.计算
+        return ocStr.boundingRectWithSize(CGSizeMake(maxW, maxH), options: .UsesLineFragmentOrigin, attributes: [NSFontAttributeName:UIFont.systemFontOfSize(fontSize)], context: nil).size
+        
     }
 }

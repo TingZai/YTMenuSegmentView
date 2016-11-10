@@ -8,6 +8,9 @@
 
 import UIKit
 
+let Screen_H = UIScreen.mainScreen().bounds.height
+let Screen_W = UIScreen.mainScreen().bounds.width
+
 ///MARK: - 菜单分段选择器协议
 protocol YTMenuSegmentViewDelegate{
 
@@ -19,6 +22,8 @@ protocol YTMenuSegmentViewDelegate{
 //3.在layoutSubviews中计算frame
 
 class YTMenuSegmentView: UIView {
+    
+    let sc = UIScreen.mainScreen().bounds.width
     //MARK: - 外部属性
     ///代理属性
     var delegate:YTMenuSegmentViewDelegate? = nil
@@ -171,6 +176,12 @@ extension YTMenuSegmentView:UICollectionViewDataSource,UICollectionViewDelegateF
     //cell被点击
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
+        let cell = collectionView.cellForItemAtIndexPath(indexPath) as! YTMenuSegementCell
+        cell.selectedView.hidden = false
+        
+        let preCell = collectionView.cellForItemAtIndexPath(NSIndexPath.init(forRow: self.indexArray[seletedIndex], inSection: 0)) as! YTMenuSegementCell
+        preCell.selectedView.hidden = true
+        
         //更新分组中的选中下标值
         self.indexArray[seletedIndex] = indexPath.row
         //更新对象的分组按钮的显示
@@ -288,5 +299,16 @@ extension YTMenuSegmentView{
             button.seleted = false
         }
         self.seletedIndex = -1
+    }
+}
+
+
+//MARK: - UIColor扩展
+extension UIColor{
+
+    ///通过0-255的RGB值去创建一个颜色对象
+    static func RGBColor(R:CGFloat,G:CGFloat,B:CGFloat,A:CGFloat) -> UIColor{
+        
+        return UIColor.init(red: R/255, green: G/255, blue: B/255, alpha: A)
     }
 }

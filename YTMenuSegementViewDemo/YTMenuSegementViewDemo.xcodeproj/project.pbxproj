@@ -12,6 +12,13 @@
 		0E0B24711DD4B4CA00B240B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B246F1DD4B4CA00B240B2 /* Main.storyboard */; };
 		0E0B24731DD4B4CA00B240B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B24721DD4B4CA00B240B2 /* Assets.xcassets */; };
 		0E0B24761DD4B4CA00B240B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B24741DD4B4CA00B240B2 /* LaunchScreen.storyboard */; };
+		0E0B24821DD4B4DF00B240B2 /* YTMenuSegementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B247E1DD4B4DF00B240B2 /* YTMenuSegementCell.swift */; };
+		0E0B24831DD4B4DF00B240B2 /* YTMenuSegementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B247F1DD4B4DF00B240B2 /* YTMenuSegementCell.xib */; };
+		0E0B24841DD4B4DF00B240B2 /* YTMenuSegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B24801DD4B4DF00B240B2 /* YTMenuSegmentButton.swift */; };
+		0E0B24851DD4B4DF00B240B2 /* YTMenuSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B24811DD4B4DF00B240B2 /* YTMenuSegmentView.swift */; };
+		0E0B24891DD4B87700B240B2 /* rotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B24861DD4B87700B240B2 /* rotation.png */; };
+		0E0B248A1DD4B87700B240B2 /* rotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B24871DD4B87700B240B2 /* rotation@2x.png */; };
+		0E0B248B1DD4B87700B240B2 /* rotation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B24881DD4B87700B240B2 /* rotation@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		0E0B24721DD4B4CA00B240B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E0B24751DD4B4CA00B240B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E0B24771DD4B4CA00B240B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E0B247E1DD4B4DF00B240B2 /* YTMenuSegementCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTMenuSegementCell.swift; sourceTree = "<group>"; };
+		0E0B247F1DD4B4DF00B240B2 /* YTMenuSegementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTMenuSegementCell.xib; sourceTree = "<group>"; };
+		0E0B24801DD4B4DF00B240B2 /* YTMenuSegmentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTMenuSegmentButton.swift; sourceTree = "<group>"; };
+		0E0B24811DD4B4DF00B240B2 /* YTMenuSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTMenuSegmentView.swift; sourceTree = "<group>"; };
+		0E0B24861DD4B87700B240B2 /* rotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotation.png; sourceTree = "<group>"; };
+		0E0B24871DD4B87700B240B2 /* rotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotation@2x.png"; sourceTree = "<group>"; };
+		0E0B24881DD4B87700B240B2 /* rotation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotation@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 		0E0B246A1DD4B4CA00B240B2 /* YTMenuSegementViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0E0B247D1DD4B4DF00B240B2 /* YTMenuSegementView(Swift) */,
 				0E0B246B1DD4B4CA00B240B2 /* AppDelegate.swift */,
 				0E0B246D1DD4B4CA00B240B2 /* ViewController.swift */,
 				0E0B246F1DD4B4CA00B240B2 /* Main.storyboard */,
@@ -62,6 +77,20 @@
 				0E0B24771DD4B4CA00B240B2 /* Info.plist */,
 			);
 			path = YTMenuSegementViewDemo;
+			sourceTree = "<group>";
+		};
+		0E0B247D1DD4B4DF00B240B2 /* YTMenuSegementView(Swift) */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B24861DD4B87700B240B2 /* rotation.png */,
+				0E0B24871DD4B87700B240B2 /* rotation@2x.png */,
+				0E0B24881DD4B87700B240B2 /* rotation@3x.png */,
+				0E0B247E1DD4B4DF00B240B2 /* YTMenuSegementCell.swift */,
+				0E0B247F1DD4B4DF00B240B2 /* YTMenuSegementCell.xib */,
+				0E0B24801DD4B4DF00B240B2 /* YTMenuSegmentButton.swift */,
+				0E0B24811DD4B4DF00B240B2 /* YTMenuSegmentView.swift */,
+			);
+			path = "YTMenuSegementView(Swift)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E0B24761DD4B4CA00B240B2 /* LaunchScreen.storyboard in Resources */,
+				0E0B24831DD4B4DF00B240B2 /* YTMenuSegementCell.xib in Resources */,
 				0E0B24731DD4B4CA00B240B2 /* Assets.xcassets in Resources */,
+				0E0B24891DD4B87700B240B2 /* rotation.png in Resources */,
+				0E0B248A1DD4B87700B240B2 /* rotation@2x.png in Resources */,
 				0E0B24711DD4B4CA00B240B2 /* Main.storyboard in Resources */,
+				0E0B248B1DD4B87700B240B2 /* rotation@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0B24851DD4B4DF00B240B2 /* YTMenuSegmentView.swift in Sources */,
 				0E0B246E1DD4B4CA00B240B2 /* ViewController.swift in Sources */,
+				0E0B24841DD4B4DF00B240B2 /* YTMenuSegmentButton.swift in Sources */,
+				0E0B24821DD4B4DF00B240B2 /* YTMenuSegementCell.swift in Sources */,
 				0E0B246C1DD4B4CA00B240B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
